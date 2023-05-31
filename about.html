@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html>
 <head> 
 
@@ -5,26 +7,41 @@
     <title> About me</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
 </head>
 
     <body id="about">
+        <header>
         <div class="main">
             <div class="navbar"> 
                 <div class="icon">
                     <h2 class="logo"> PLT </h2>
                 </div>
-                <div class="menu">
+            </header>
+
+                <div class="menu-bar">
                     <ul>
-                        <li><a href="index.html">HOME</a></li>
+                        <li class="active"><a href="index.html">HOME</a></li>
                         <li><a href="about.html">ABOUT</a></li>
-                        <div class="dropdown"> <a href="posts.html"><button>POSTS</a></button> 
-                        <div class="dropdown-content"> <a href="about.html"> Blog</a></div>
+                        <li><a href="posts.html">POSTS</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="travel.html">ADVENTURES</a></li>
+                                <li><a href="beauty.html">BEAUTY</a></li>
+                                <li><a href="feminism.html">FEMINISM</a></li>
+
+                            </ul>
                         </div>
+                        </li>
                         <li><a href="contactpage.html">CONTACT</a></li>
-                        <li><a href="#">RESOURCE</a></li>
-                        <li><a href="#">ARCHIEVE</a></li>
-                   </ul>
-                </div>
+                        <li><a href="resource.html">RESOURCE</a></li>
+                        <li><a href="archive.html">ARCHIVE</a></li>
+            
+                    </ul>
+                    </div>
+            
                 <div class="search">
                     <input class="srch" type="search" placeholder="Find ">
                     <a href="#"> <button class="btn">Search</button> </a>
@@ -39,7 +56,7 @@
                     </section>
                     <section>
 <div class="about-me">
-    <div class="imgage">
+    <div class="imagela">
         <img src="IMG_0361.JPG">
     </div>
     <div class="abt">
@@ -80,7 +97,11 @@ Engineering and Management at the esteemed University of Nova Gorica.
                 </main>
 
 
-
+<footer class="footer">
+    <div class="footerContainer">
+<p class="copyright"> &copy; 2023 Teodora Petkovska. All Rights Reserved. </p>
+    </div>
+</footer>
     </body>
 
 
